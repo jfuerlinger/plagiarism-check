@@ -8,9 +8,7 @@ RUN pip install -U scikit-learn scipy matplotlib wheel pandas openpyxl
 
 WORKDIR /workspace
 COPY *.py .
-COPY performCheck.sh .
+COPY entrypoint.sh .
 
-CMD ["./performCheck.sh"]
+CMD ["./entrypoint.sh"]
 # CMD ["/bin/bash"]
-# CMD [ "python", "./checkPlagiat.py"]
-# CMD ["tail", "-f", "/dev/null"]
