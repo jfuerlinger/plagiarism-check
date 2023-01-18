@@ -22,3 +22,4 @@ To perform a plagiarism check add a zip file to the *./run* directory and execut
 ./run/runCheck.cmd
 ```
 
+As a result an *xlsx-file* is created in the *./run* folder.
