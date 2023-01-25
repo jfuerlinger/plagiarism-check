@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.11.1-slim-buster
 
 RUN apt-get update && \
     apt-get upgrade && \
