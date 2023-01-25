@@ -1,4 +1,5 @@
-REM docker build -t jfuerlinger/duplicate:latest .
-REM docker push jfuerlinger/duplicate:latest
-
 docker build -t duplicate:latest .
+
+docker tag duplicate:latest jfuerlinger/duplicate:latest .
+docker push jfuerlinger/duplicate:latest
+
