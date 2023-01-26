@@ -4,6 +4,6 @@ python ./checkPlagiat.py
 
 cp -r ./submissions /input/submissions
 cp ./*.xlsx /input
-# /bin/bash
+
 
 
